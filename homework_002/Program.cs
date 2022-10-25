@@ -14,6 +14,7 @@
 
 // Console.WriteLine($"Second number of {num} is {showSecondNum(num)}");
 
+
 //* Задача 13: Напишите программу, которая выводит третью цифру заданного числа
 //* или сообщает, что третьей цифры нет.
 
@@ -27,10 +28,10 @@
 //         }
 //     }
 
-//     if (number < 1000 && number > 99)
+//     if (number > 99 && number < 1000)
 //     {
-//         number = number % 10;
-//         return number;
+//         int result = number % 10;
+//         return result;
 //     }
 
 //     else return -1;
@@ -39,7 +40,11 @@
 // Console.Write("Input number: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine($"Third number of {num} is {ShowThirdNum(num)}"); 
+// if (ShowThirdNum(num) == -1)
+//     Console.WriteLine($"There is no third digit in number {num}!");
+// else
+//     Console.WriteLine($"Third digit of number {num} is {ShowThirdNum(num)}");
+
 
 //* Задача 15: Напишите программу, которая принимает на вход цифру,
 //* обозначающую день недели, и проверяет, является ли этот день выходным.
@@ -53,5 +58,7 @@
 // Console.Write("Input day of the week: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// if (WeekEnd(num)) Console.WriteLine("It's WeekEnd day!");
-// else Console.WriteLine("It's a work day");
+// if (WeekEnd(num))
+//     Console.WriteLine("It's a WeekEnd day!");
+// else
+//     Console.WriteLine("It's a work day");
