@@ -18,7 +18,7 @@
 //* Задача 13: Напишите программу, которая выводит третью цифру заданного числа
 //* или сообщает, что третьей цифры нет.
 
-// int ShowThirdNum(int number)
+// int ShowThirdDigit(int number)
 // {
 //     if (number > 999)
 //     {
@@ -40,10 +40,10 @@
 // Console.Write("Input number: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// if (ShowThirdNum(num) == -1)
+// if (ShowThirdDigit(num) == -1)
 //     Console.WriteLine($"There is no third digit in number {num}!");
 // else
-//     Console.WriteLine($"Third digit of number {num} is {ShowThirdNum(num)}");
+//     Console.WriteLine($"Third digit of number {num} is {ShowThirdDigit(num)}");
 
 
 //* Задача 15: Напишите программу, которая принимает на вход цифру,
