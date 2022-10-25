@@ -53,4 +53,5 @@
 // Console.Write("Input day of the week: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine(WeekEnd(num));
+// if (WeekEnd(num)) Console.WriteLine("It's WeekEnd day!");
+// else Console.WriteLine("It's a work day");
