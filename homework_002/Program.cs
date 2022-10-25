@@ -40,3 +40,17 @@
 // int num = Convert.ToInt32(Console.ReadLine());
 
 // Console.WriteLine($"Third number of {num} is {ShowThirdNum(num)}"); 
+
+//* Задача 15: Напишите программу, которая принимает на вход цифру,
+//* обозначающую день недели, и проверяет, является ли этот день выходным.
+
+// bool WeekEnd(int day)
+// {
+//     if (day == 6 || day == 7) return true;
+//     else return false;
+// }
+
+// Console.Write("Input day of the week: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine(WeekEnd(num));
