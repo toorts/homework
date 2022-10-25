@@ -19,9 +19,9 @@
 
 // int ShowThirdNum(int number)
 // {
-//     if (number > 1000)
+//     if (number > 999)
 //     {
-//         while (number > 1000)
+//         while (number > 999)
 //         {
 //             number = number / 10;
 //         }
