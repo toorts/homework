@@ -1,7 +1,7 @@
 ﻿//* Задача 10: Напишите программу, которая принимает на вход трёхзначное число
 //* и на выходе показывает вторую цифру этого числа.
 
-// int showSecondNum(int number)
+// int ShowSecondDigit(int number)
 // {
 //     int cutThird = number / 10;
 //     int result = cutThird % 10;
@@ -12,7 +12,7 @@
 // Console.Write("Input 3-digit number: "); 
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine($"Second digit of number {num} is {showSecondNum(num)}");
+// Console.WriteLine($"Second digit of number {num} is {ShowSecondDigit(num)}");
 
 
 //* Задача 13: Напишите программу, которая выводит третью цифру заданного числа
