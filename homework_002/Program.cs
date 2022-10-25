@@ -12,7 +12,7 @@
 // Console.Write("Input 3-digit number: "); 
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine($"Second number of {num} is {showSecondNum(num)}");
+// Console.WriteLine($"Second digit of number {num} is {showSecondNum(num)}");
 
 
 //* Задача 13: Напишите программу, которая выводит третью цифру заданного числа
