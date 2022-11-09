@@ -25,44 +25,32 @@
 // Console.WriteLine($"{num} to the power of {pow} equals {NumPower(num, pow)}");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //* Задача 27: Напишите программу, которая принимает на вход число
 //* и выдаёт сумму цифр в числе.
 
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
+
+// int DigitSum(int number)
+// {
+//     int result = 0;
+//     int digits = number;
+
+//     while (digits != 0)
+//     {
+//         result += digits % 10;
+//         digits /= 10;
+//     }
+
+//     return result;
+// }
+
+// Console.Write("Input a number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine($"Sum of all digits in {num} is {DigitSum(num)}");
+
 
 //* Задача 29: Напишите программу, которая задаёт массив из m элементов
 //* и выводит их на экран.
