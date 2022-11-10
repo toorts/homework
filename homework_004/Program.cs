@@ -84,6 +84,8 @@
 // Console.Write("Input a number of elements: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
+// Console.WriteLine();
 // int[] numList = CreateArray(num);
 
+// Console.WriteLine();
 // ShowArray(numList);
