@@ -52,15 +52,32 @@ void ShowArray(int[] array)
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
+// int SumOddPosition(int[] array)
+// {
+//     int result = 0;
 
+//     for (int i = 1; i < array.Length; i += 2)
+//         result += array[i];
 
+//     return result;
+// }
 
+// Console.Write("Input a number of elements: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
+// Console.Write("Input a min possible value: ");
+// int min = Convert.ToInt32(Console.ReadLine());
 
+// Console.Write("Input a max possible value: ");
+// int max = Convert.ToInt32(Console.ReadLine());
 
+// int[] myArray = CreateRandomArray(num, min, max);
 
+// ShowArray(myArray);
 
+// int counter = SumOddPosition(myArray);
 
+// Console.WriteLine($"Sum of elements in odd positions is {counter}");
 
 
 //* Задача 38: Задайте массив вещественных чисел. 
