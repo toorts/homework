@@ -83,4 +83,56 @@ void ShowArray(int[] array)
 //* Задача 38: Задайте массив вещественных чисел. 
 //* Найдите разницу между максимальным и минимальным элементов массива.
 
-// [3 7 22 2 78] -> 76
+
+// double[] MakeRandomArray(int size)
+// {
+//     double[] array = new double[size];
+
+//     for (int i = 0; i < size; i++)
+//         array[i] = Math.Round(new Random().NextDouble(), 2);
+
+//     return array;
+// }
+
+// void ShowMeArray(double[] array)
+// {
+//     Console.Write("{ ");
+
+//     for (int i = 0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
+
+//     Console.Write("}");
+
+//     Console.WriteLine();
+// }
+
+// double FindMin(double[] array)
+// {
+//     double min = array[0];
+//     for (int i = 1; i < array.Length; i++)
+//     {
+//         if (array[i] < min)
+//             min = array[i];
+//     }
+//     return min;   
+// }
+
+// double FindMax(double[] array)
+// {
+//     double max = array[0];
+//     for (int i = 1; i < array.Length; i++)
+//     {
+//         if (array[i] > max)
+//             max = array[i];
+//     }
+//     return max;   
+// }
+
+// Console.Write("Input a number of elements: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// double[] myArray = MakeRandomArray(num);
+// ShowMeArray(myArray);
+
+// double diff = Math.Round(FindMax(myArray) - FindMin(myArray), 2);
+// Console.WriteLine($"Difference is {diff}");
