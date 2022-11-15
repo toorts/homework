@@ -46,7 +46,7 @@
 
 // else
 // {
-//     double x = (b2 - b1) / (k1 - k2);
-//     double y = k2 * x + b2;
+//     double x = Math.Round((b2 - b1) / (k1 - k2), 2);
+//     double y = Math.Round(k2 * x + b2, 2);
 //     Console.WriteLine($"Point of intersection is ({x}, {y})");
 // }
