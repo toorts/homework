@@ -79,6 +79,38 @@ void Show2DArray(int[,] array)
 // 8 4 2 4
 // 1 7 -> числа с такими индексами в массиве нет
 
+// void FindElement(int[,] array, int row, int col)
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             if (row == i && col == j)
+//                 Console.WriteLine($"Element is {array[i, j]}");
+//         }
+// }
+
+// Console.Write("Input a number of rows: ");
+// int r = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a number of columns: ");
+// int c = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Input a min possible value: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a max possible value: ");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine();
+
+// Console.Write("Input a row: ");
+// int line = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a column: ");
+// int column = Convert.ToInt32(Console.ReadLine());
+
+// int[,] my2DArray = CreateRandom2DArray(r, c, min, max);
+// Show2DArray(my2DArray);
+
+// FindElement(my2DArray, line, column);
+
 
 //* Задача 52. Задайте двумерный массив из целых чисел.
 //* Найдите среднее арифметическое элементов в каждом столбце.
