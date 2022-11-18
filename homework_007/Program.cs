@@ -79,14 +79,13 @@ void Show2DArray(int[,] array)
 // 8 4 2 4
 // 1 7 -> числа с такими индексами в массиве нет
 
-// void FindElement(int[,] array, int row, int col)
+// bool FindElement(int[,] array, int row, int col)
 // {
 //     for (int i = 0; i < array.GetLength(0); i++)
 //         for (int j = 0; j < array.GetLength(1); j++)
-//         {
-//             if (row == i && col == j)
-//                 Console.WriteLine($"Element is {array[i, j]}");
-//         }
+//             if (row == i && col == j) return true;
+            
+//     return false;
 // }
 
 // Console.Write("Input a number of rows: ");
@@ -109,7 +108,10 @@ void Show2DArray(int[,] array)
 // int[,] my2DArray = CreateRandom2DArray(r, c, min, max);
 // Show2DArray(my2DArray);
 
-// FindElement(my2DArray, line, column);
+// if (FindElement(my2DArray, line, column))
+//     Console.WriteLine("Element in array");
+// else
+//     Console.WriteLine("Element not in array");
 
 
 //* Задача 52. Задайте двумерный массив из целых чисел.
