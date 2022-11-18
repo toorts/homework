@@ -120,3 +120,48 @@ void Show2DArray(int[,] array)
 // 5 9 2 3
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
+
+double[] ColumnAverage(int[,] array)
+{
+    double[] averageArray = new double[array.GetLength(1)];
+
+    for (int j = 0; j < array.GetLength(1); j++)
+    {
+        double sum = 0;
+
+        for (int i = 0; i < array.GetLength(0); i++)
+            sum += array[i, j];
+
+        double result = Math.Round(sum / array.GetLength(0), 1);
+
+        averageArray[j] = result;
+    }
+
+    return averageArray;
+}
+
+void ShowDoubleArray(double[] array)
+{
+    Console.WriteLine();
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+}
+
+Console.Write("Input a number of rows: ");
+int r = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a number of columns: ");
+int c = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Input a min possible value: ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a max possible value: ");
+int max = Convert.ToInt32(Console.ReadLine());
+
+int[,] my2DArray = CreateRandom2DArray(r, c, min, max);
+Show2DArray(my2DArray);
+
+double[] resultArray = ColumnAverage(my2DArray);
+ShowDoubleArray(resultArray);
