@@ -66,4 +66,4 @@ Console.Write("Input a second number: ");
 int numN = Convert.ToInt32(Console.ReadLine());
 
 int Ackermann = WilhelmFriedrich(numM, numN);   // sooorry for big A :)
-Console.WriteLine($"A({numM},{numN}) = {Ackermann}");  // and thanks for your lesssons! 
+Console.WriteLine($"A({numM},{numN}) = {Ackermann}");  // and thanks for your lessons! 
